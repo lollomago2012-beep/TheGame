@@ -7,7 +7,7 @@ document.getElementById('Submit').onclick = function(){
 
     if (passcode == 'LETHEGAMEBEGIN'){
         document.getElementById('Answer').innerText = 'Amazing';
-        window.location.href = "https://lollomago2012-beep.github.io/TheGame/Pillar.html";
+        window.location.href = "Pillar.html";
 
     }
     else if(passcode == ''){

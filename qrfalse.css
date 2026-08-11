@@ -1,0 +1,45 @@
+#container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+body
+{
+    background:     radial-gradient(circle,rgba(0, 0, 0, 1) 0%, rgba(207, 207, 207, 1) 81%, rgba(255, 255, 255, 1) 100%);
+}
+
+#text
+{
+    color: white;
+    font-family: verdana;
+    font-size: 30px;
+    position: relative;
+}
+
+#Download
+{
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#downloadDiv
+{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 20px;
+}
+
+#Download:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
